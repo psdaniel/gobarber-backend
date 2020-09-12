@@ -14,7 +14,7 @@ usersRouter.post('/', async (request, response) => {
             name,
             email,
             password,
-        })
+        });
 
         return response.json(user)
     } catch (err) {
