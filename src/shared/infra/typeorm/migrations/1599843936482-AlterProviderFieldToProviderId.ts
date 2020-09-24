@@ -18,7 +18,8 @@ export default class AlterProviderFieldToProviderId1599843936482 implements Migr
             referencedTableName: 'users',
             onDelete: 'SET NULL',
             onUpdate: 'CASCADE'
-        }))
+        }),
+        );
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
