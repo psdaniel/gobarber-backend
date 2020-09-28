@@ -10,6 +10,7 @@ interface TokenPayLoad {
     sub: string;
 }
 
+
 export default function ensureAuthenticated(request: Request, response: Response, next: NextFunction): void {
     // Validação do token JWT
 
